@@ -1,0 +1,11 @@
+This is a simple hexdump utility written in Intel assembly
+(NASM). It's copied from the book `Assembly Language Step by Step:
+Programming with Linux', by Jeff Duntemann. Currently this only works
+on 32-bit Linux (since that's what I have).
+
+Use it like so:
+
+$ hdump < file
+
+...HEX OUTPUT GOES HERE...
+
